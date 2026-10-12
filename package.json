@@ -1,0 +1,16 @@
+{
+  "name": "@tokenjunkielabs/starforge-firecrawl-research",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Priced Firecrawl search and page reads served through the Stellar Forge x402 seller, with a private customer research workspace",
+  "license": "MIT",
+  "engines": { "node": ">=22.13" },
+  "bin": { "starforge-firecrawl": "run.mjs" },
+  "dependencies": {
+    "@x402/core": "2.28.0",
+    "@x402/extensions": "2.28.0",
+    "@x402/stellar": "2.28.0",
+    "@stellar/stellar-sdk": "16.3.0"
+  }
+}
